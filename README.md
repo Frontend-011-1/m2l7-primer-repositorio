@@ -91,3 +91,30 @@ Usar convención de nombrado para commits (lo mimso para ramas): feat para funci
 9. `>>>>>>>` mejora-titulo: Aquí termina la versión de tu compañero.
 10. Hay que decidir qué versión se queda. Preferir opción "Resolver en el editor"
 11. git add y commit
+
+# Push, Pull y Pull Request
+
+Es un comando de Git que descarga los cambios más recientes desde un repositorio remoto (como GitHub) y los combina automáticamente con tu rama local. Es como "actualizar" tu código con lo que otros han subido.
+
+## Pull
+
+1. si repo ya existe: hacer pull y luego push
+2. crear un archivo en repo remoto
+3. `git pull origin main`
+4. git
+
+## Pull Request (PR)
+
+Es una solicitud que envías en plataformas como GitHub para que otros revisen tus cambios antes de fusionarlos en la rama principal del proyecto. Es como pedir permiso para "unir" tu trabajo al código compartido.
+
+1. Crear y cambiarse a nueva rama
+2. Crear cambios
+3. git add y commit
+4. Push de la nueva rama al origin `git push origin nueva-rama`
+5. Ir a GitHub -> Pull requests
+6. Tambien puede hacer click en botón "Compare and Pull Request"
+7. Agregar mensaje y "Create pull request"
+8. Revisar el PR. Si es que no hay conflictos: Merge Pull request, ver botón para borrar rama
+9. Volver a rama main en proyecto local, hacer `git pull origin main` para traerse los cambios del remoto
+
+Si bien el proyecto es solo mío (o de ustedes) es una buena idea seguir estas prácticas para mentener un historial limpio (ver cuando y porqué se agregaron funcionalidades), para practicar el flujo de trabajo con git y por seguridad (se evitará romper la rama main por accidente)
