@@ -110,7 +110,7 @@ Es una solicitud que envías en plataformas como GitHub para que otros revisen t
 1. Crear y cambiarse a nueva rama
 2. Crear cambios
 3. git add y commit
-4. Push de la nueva rama al origin
+4. Push de la nueva rama al origin `git push origin nueva-rama`
 5. Ir a GitHub -> Pull requests
 6. Tambien puede hacer click en botón "Compare and Pull Request"
 7. Agregar mensaje y "Create pull request"
